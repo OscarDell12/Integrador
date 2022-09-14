@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif;
+    background-image: url(https://elviajerofeliz.com/wp-content/uploads/2015/09/paisajes-de-Canada.jpg);
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo{
+    color:rgb(0, 0, 0)
+
+}
+.navegador{
+max-width: 2000px;
+margin: auto;
+
+
+
+}
+header nav {
+width: 100%;    
+background-color: gainsboro;
+ background-size:cover;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+header nav .logo{
+font-size: 30px;
+font-weight: bold;
+
+
+}
+.links{
+    display: flex;
+    gap: 20px;
+    border:20px;
+   
+
+}
+.links .link {
+    padding: 6px 20px;
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+    font-weight:700;
+    font-size: 13px;
+    text-transform: uppercase;
+    transform-origin:0.3s all ease;
+    
+}
+
+
+
+
+
+.links .link:hover {
+    transform: translateY(-5px);
+    color:rgb(241, 64, 0);
+    
+
+}
+header nav .logo span{
+    font-weight: bold;
+    color:rgb(224, 84, 3);
+    }
+
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top:60px;
+    
+
+}
+
+.precio{
+    position: relative;
+}
+
+.dolar{
+    position: absolute;
+    left:-6px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.numero{
+    font-size: 55px;
+    color: rgb(255, 37, 37);
+}
+
+
+
+
+.tabla{
+    background-color: white;
+    padding: 30px;
+    transition:all 400ms ease;
+    box-shadow: 1px 2px 6px 8px #404040;
+    
+   }
+
+   .tabla:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+   }
+
+.caracteristicas p{
+    font-size: 20px;
+    color: rgb(17, 15, 15);
+    margin: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.botoncito{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 8px 22px;
+    margin-top: 20px;
+    display: inline-block;
+    color: antiquewhite;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.botoncito:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.numero2{
+    color: rgb(207, 55, 162);
+}
+
+.numero3{
+    color: rgb(117, 3, 224);
+}
+
+.container-footer {
+
+    background-color: black;
+
+
+
+    align-items: center;
+}
+
+.copyright {
+    color: gainsboro
+}
+
+.copyright a {
+    color: rgb(136, 130, 130);
+    font-weight: bold;
+}
+
+.terminos-condiciones a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.footer {
+    width: 90%;
+
+    margin-top: 310px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
