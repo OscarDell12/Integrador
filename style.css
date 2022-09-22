@@ -47,26 +47,30 @@ margin: auto;
 
 }
 
-.nav i{
-    font-size: 15px;
+.navegador i{
+    font-size: 30px;
     display: none;
 }
 
 #toggle-menu{
-    display: none;
+    
     z-index: 1;
+    display: none;
 }
 .nav{
     display: flex;
 }
 header nav {
-width: 100%;    
+width: 90%;    
 background-color: gainsboro;
  background-size:cover;
 display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 position: fixed;
+top:0;
+flex-wrap: wrap;
+min-width: 300px;
 
 
 }
@@ -81,6 +85,7 @@ font-weight: bold;
     display: flex;
     gap: 20px;
     border:20px;
+    left: 5rem;
    
 
 }
@@ -93,6 +98,7 @@ font-weight: bold;
     font-size: 13px;
     text-transform: uppercase;
     transform-origin:0.3s all ease;
+    left: 5rem;    
     
 }
 
@@ -116,7 +122,15 @@ header nav .logo span{
     height: 700px;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
+    flex-wrap: wrap;
 
+    
+
+}
+
+.main-page:first-child{
+    padding: 25px;
+    margin: 20px;
 }
 .hero-container{
     height: 100%;
@@ -127,6 +141,7 @@ header nav .logo span{
     justify-content: center;
     align-items: center;
     margin:0;
+    min-width: 300px;
 }
 
 .title{
@@ -518,5 +533,4 @@ footer {
     justify-content: space-between;
     padding: 20px;
 }
-
 
